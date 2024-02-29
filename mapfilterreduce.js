@@ -39,3 +39,12 @@ console.log(odd);
  console.log(sum);
  
  //output:15
+const arr=[10,50,20,40];
+ const output=arr.reduce(function(max,i){
+     if(i>max){
+         max=i;
+     }
+     return max;
+ },0);
+ console.log("Max Number of the array is",output);
+ //Max Number of the array is 50
