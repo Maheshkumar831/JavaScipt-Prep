@@ -54,9 +54,21 @@ ReferenceError: y is not defined
 */
 
 
-//GARBAGE COLLECTION & REMOVEEVENT LISTENERS
+//EVENT LISTENERS
 
 document.getElementById("clickMe").
   addEventListener("click",function xyz(){//callback function
     console.log("button clicked");
 });
+
+
+//CLOSURES DEMO WITH EVENT LISTENERS
+
+function attachEventListeners(){
+  let count=0;
+  document.addElementById('clickMe',function xyz(){
+    console.log("Button clicked",++count);
+  }
+}
+attachEventListeners();
+//if button clicked web page like call the xyz function but count is outer scope that is closure...lexical scope.
