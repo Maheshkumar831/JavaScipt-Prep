@@ -54,11 +54,13 @@ function y(param1,param2){
 y(args1,args2);
 
 
-//FIRST CLASS FUNCTIONS
+//FIRST CLASS FUNCTIONS-ability to use like values
+//Functions are first class citizens.
 
 
+//ARROW FUNCTIONS-introduce in es6..
+//let & const also introduce in es6
 
 
-}
 
 //
