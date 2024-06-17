@@ -36,3 +36,8 @@ console.log(calculate(arr,circum));
 [ 12.566370614359172, 18.84955592153876, 25.132741228718345 ]
 
 */
+
+//MAP FUNC
+MAP FUCN IS SAME AS CALCULATE FUNC-create a new array iterate the original array stored into the new array.
+console.log(arr.map(area));
+//[ 12.566370614359172, 28.274333882308138, 50.26548245743669 ]
